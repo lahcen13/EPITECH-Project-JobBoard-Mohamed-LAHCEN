@@ -1,0 +1,54 @@
+.navbar {
+    position: relative;
+    background-color: #5a71e4;
+    height: 8vh;
+    /* max-height: 8%; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    min-height: fit-content;
+}
+.navbar h4 {
+    width: fit-content;
+    font-size:3vh;
+    padding: 3%;
+    color: white;
+}
+
+
+
+.image {
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    display: block;
+    right: 3%;
+    /* position: absolute; */
+    z-index: 1000;
+}
+
+.imgWrapper {
+    padding-right: 3%;
+    font-size: 1.5vw;
+    color: white;
+    
+}
+
+.userPic {
+    margin-left: 15px;
+}
+.userPic:hover {
+    transition: 0.4s;
+    transform: scale(1.3);
+}
+
+.bell:hover {
+    transition: 0.4s;
+    transform: scale(1.3);
+}
+
+.unRegisteredRedirects {
+    color: white;
+}

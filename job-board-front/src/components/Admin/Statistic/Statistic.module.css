@@ -1,0 +1,92 @@
+.ParentA{
+    padding-top: 5vh;
+}
+.box{ 
+    background-color: #5a71e4;
+    position:relative;
+}
+
+.h3{
+    font-family: "Rowdies";
+    color:white;
+    font-size:4vh
+}
+.h1{
+    font-family: "Rowdies";
+    color:white;
+    width:100%;
+    text-align: center;
+}
+.Button{
+    position:absolute; 
+    width: 50%;
+    bottom:1vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 7vh;
+    font-family: "Rowdies";
+    background-color: #5a71e4;
+    box-shadow:9px 7px 27px 3px rgba(0,0,0,0.45);
+    border: none;
+    color:rgb(212, 211, 211);
+}
+
+.ButtonSmall {
+    position:absolute; 
+    width: 50%;
+    bottom:1vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 7vh;
+    font-family: "Rowdies";
+    background-color: #5a71e4;
+    box-shadow:9px 7px 27px 3px rgba(0,0,0,0.45);
+    border: none;
+    color:rgb(212, 211, 211);
+    display: none;
+}
+.Button:hover{
+    transition: 0.2;
+    color:rgb(255, 255, 255);
+    background-color: #6a80f0;
+}
+
+
+@media (max-width: 560px) {
+    .ParentA{
+        height:30vh;
+    }
+    .box{  
+        width:100%;
+        Height:100%;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .h1{
+        font-size: 5VW; 
+    }
+    .Button {
+        display: none;
+    }
+
+    .ButtonSmall {
+        display: initial;
+    }
+}
+
+
+
+@media screen and (min-width: 560px ) {
+    .ParentA{
+        height:35vh;
+        display: flex;
+        justify-content: space-between;
+    }
+    .box{ 
+        width:30%;
+        Height:100%;
+        padding: 10px;
+    }
+
+   
+}

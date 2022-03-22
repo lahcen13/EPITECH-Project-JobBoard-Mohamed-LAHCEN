@@ -1,0 +1,20 @@
+.UserProfilApplied {
+
+}
+.BoxHeight{
+    height:78.7vh;
+}
+.scroll{
+    height:65.6vh!important;
+    overflow: auto;
+}
+
+.noApply {
+    margin-top: 10%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  background-color: rgb(241, 239, 239);
+}

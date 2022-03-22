@@ -1,0 +1,13 @@
+.textAlert {
+    text-align: center;
+    font-family: "Rowdies";
+    font-size: 12px;
+}
+
+.toast{
+    height: auto;
+    min-width: auto;
+    margin-top:5vh;
+    margin-bottom:5vh;
+    padding-bottom: 5px;
+}
